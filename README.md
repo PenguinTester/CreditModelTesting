@@ -1,7 +1,5 @@
 [![DVC](https://img.shields.io/badge/-Open_in_Studio-grey.svg?style=flat-square&logo=data-version-control)](https://studio.iterative.ai/team/Iterative/views/example-get-started-zde16i6c4g) [![DVC-metrics](https://img.shields.io/badge/dynamic/json?style=flat-square&colorA=grey&colorB=F46737&label=Average%20Precision&url=https://github.com/iterative/example-get-started/raw/main/evaluation.json&query=avg_prec)](https://github.com/iterative/example-get-started/raw/main/evaluation.json)
 
-# DVC Get Started
-
 This is an auto-generated repository for use in [DVC](https://dvc.org)
 [Get Started](https://dvc.org/doc/get-started). It is a step-by-step quick
 introduction into basic DVC concepts.
