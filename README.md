@@ -121,8 +121,7 @@ There are three additional tags:
 
 - `baseline-experiment`: First end-to-end result that we have performance metric
   for.
-- `bigrams-experiment`: Second experiment (model trained using bigrams
-  features).
+- `bigrams-experiment`: Second experiment (mode features).
 - `random-forest-experiments`: Best of additional experiments tuning random
   forest parameters.
 
@@ -143,11 +142,9 @@ $ tree
 │   ├── data.xml          # <-- Initial XML StackOverflow dataset (raw data)
 │   ├── data.xml.dvc      # <-- .dvc file - a placeholder/pointer to raw data
 │   ├── features          # <-- Extracted feature matrices
-│   │   ├── test.pkl
-│   │   └── train.pkl
-│   └── prepared          # <-- Processed dataset (split and TSV formatted)
-│       ├── test.tsv
-│       └── train.tsv
+│   │   └── test.pkl
+│   └── prepare          # <-- Processed dataset (split and TSV formatted)
+│       └── test.tsv
 ├── evaluation
 │   ├── importance.png    # <-- Feature importance plot
 │   └── plots             # <-- Data points for ROC, PRC, confusion matrix
@@ -156,13 +153,13 @@ $ tree
 │       └── roc.json
 ├── dvc.lock
 ├── dvc.yaml              # <-- DVC pipeline file
-├── model.pkl             # <-- Trained model file
+├── model.pkl             # <--  model file
 ├── params.yaml           # <-- Parameters file
 ├── evaluation.json       # <-- Binary classifier final metrics (e.g. AUC)
 └── src                   # <-- Source code to run the pipeline stages
     ├── evaluate.py
     ├── featurization.py
     ├── prepare.py
-    ├── requirements.txt  # <-- Python dependencies needed in the project
-    └── train.py
+    └── requirements.txt  # <-- Python dependencies needed in the project
+   
 ```
